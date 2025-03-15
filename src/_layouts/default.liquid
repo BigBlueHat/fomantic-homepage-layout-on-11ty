@@ -72,7 +72,7 @@
         {{ masthead.header }}
       </h1>
       <h2>{{ masthead.subheader }}</h2>
-      <div class="ui huge primary button">{{ masthead.cta }} <i class="right arrow icon"></i></div>
+      {% if masthead.cta %}<div class="ui huge primary button">{{ masthead.cta }} <i class="right arrow icon"></i></div>{% endif %}
     </div>
     {% endif %}
 
