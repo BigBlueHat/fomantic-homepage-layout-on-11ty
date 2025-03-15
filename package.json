@@ -4,6 +4,8 @@
   "description": "Fomantic's homepage layout design as an 11ty static site.",
   "type": "module",
   "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "BigBlueHat <byoung@bigbluehat.com>",
