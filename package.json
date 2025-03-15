@@ -1,0 +1,14 @@
+{
+  "name": "fomantic-homepage-layout-on-11ty",
+  "version": "0.0.0",
+  "description": "Fomantic's homepage layout design as an 11ty static site.",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BigBlueHat <byoung@bigbluehat.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
